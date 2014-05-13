@@ -22,6 +22,16 @@
 		D8423BED19219E0200E64C48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423BCC19219E0200E64C48 /* UIKit.framework */; };
 		D8423BF519219E0200E64C48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8423BF319219E0200E64C48 /* InfoPlist.strings */; };
 		D8423BF719219E0200E64C48 /* PicnicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8423BF619219E0200E64C48 /* PicnicTests.m */; };
+		D8423C0119219E8F00E64C48 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0019219E8F00E64C48 /* FacebookSDK.framework */; };
+		D8423C0319219E9B00E64C48 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0219219E9B00E64C48 /* Parse.framework */; };
+		D8423C0519219EBC00E64C48 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0419219EBC00E64C48 /* AudioToolbox.framework */; };
+		D8423C0719219EC100E64C48 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0619219EC100E64C48 /* CFNetwork.framework */; };
+		D8423C0919219EC600E64C48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0819219EC600E64C48 /* CoreLocation.framework */; };
+		D8423C0B19219ED300E64C48 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0A19219ED300E64C48 /* libz.dylib */; };
+		D8423C0D19219ED900E64C48 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0C19219ED900E64C48 /* MobileCoreServices.framework */; };
+		D8423C0F19219EDE00E64C48 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C0E19219EDE00E64C48 /* Security.framework */; };
+		D8423C1119219EE700E64C48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C1019219EE700E64C48 /* StoreKit.framework */; };
+		D8423C1319219EEE00E64C48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423C1219219EEE00E64C48 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,16 @@
 		D8423BF219219E0200E64C48 /* PicnicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicnicTests-Info.plist"; sourceTree = "<group>"; };
 		D8423BF419219E0200E64C48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8423BF619219E0200E64C48 /* PicnicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicnicTests.m; sourceTree = "<group>"; };
+		D8423C0019219E8F00E64C48 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Frameworks/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		D8423C0219219E9B00E64C48 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Frameworks/Parse.framework; sourceTree = "<group>"; };
+		D8423C0419219EBC00E64C48 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D8423C0619219EC100E64C48 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D8423C0819219EC600E64C48 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8423C0A19219ED300E64C48 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D8423C0C19219ED900E64C48 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D8423C0E19219EDE00E64C48 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D8423C1019219EE700E64C48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D8423C1219219EEE00E64C48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8423C1319219EEE00E64C48 /* SystemConfiguration.framework in Frameworks */,
+				D8423C1119219EE700E64C48 /* StoreKit.framework in Frameworks */,
+				D8423C0F19219EDE00E64C48 /* Security.framework in Frameworks */,
+				D8423C0D19219ED900E64C48 /* MobileCoreServices.framework in Frameworks */,
+				D8423C0B19219ED300E64C48 /* libz.dylib in Frameworks */,
+				D8423C0919219EC600E64C48 /* CoreLocation.framework in Frameworks */,
+				D8423C0719219EC100E64C48 /* CFNetwork.framework in Frameworks */,
+				D8423C0519219EBC00E64C48 /* AudioToolbox.framework in Frameworks */,
 				D8423BCB19219E0200E64C48 /* CoreGraphics.framework in Frameworks */,
+				D8423C0119219E8F00E64C48 /* FacebookSDK.framework in Frameworks */,
 				D8423BCD19219E0200E64C48 /* UIKit.framework in Frameworks */,
 				D8423BC919219E0200E64C48 /* Foundation.framework in Frameworks */,
+				D8423C0319219E9B00E64C48 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +133,16 @@
 		D8423BC719219E0200E64C48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8423C0219219E9B00E64C48 /* Parse.framework */,
+				D8423C0019219E8F00E64C48 /* FacebookSDK.framework */,
+				D8423C1219219EEE00E64C48 /* SystemConfiguration.framework */,
+				D8423C1019219EE700E64C48 /* StoreKit.framework */,
+				D8423C0E19219EDE00E64C48 /* Security.framework */,
+				D8423C0C19219ED900E64C48 /* MobileCoreServices.framework */,
+				D8423C0A19219ED300E64C48 /* libz.dylib */,
+				D8423C0819219EC600E64C48 /* CoreLocation.framework */,
+				D8423C0619219EC100E64C48 /* CFNetwork.framework */,
+				D8423C0419219EBC00E64C48 /* AudioToolbox.framework */,
 				D8423BC819219E0200E64C48 /* Foundation.framework */,
 				D8423BCA19219E0200E64C48 /* CoreGraphics.framework */,
 				D8423BCC19219E0200E64C48 /* UIKit.framework */,
@@ -116,11 +156,8 @@
 			children = (
 				D8423BD719219E0200E64C48 /* YEAppDelegate.h */,
 				D8423BD819219E0200E64C48 /* YEAppDelegate.m */,
-				D8423BDA19219E0200E64C48 /* Main_iPhone.storyboard */,
-				D8423BDD19219E0200E64C48 /* Main_iPad.storyboard */,
 				D8423BE019219E0200E64C48 /* YEViewController.h */,
 				D8423BE119219E0200E64C48 /* YEViewController.m */,
-				D8423BE319219E0200E64C48 /* Images.xcassets */,
 				D8423BCF19219E0200E64C48 /* Supporting Files */,
 			);
 			path = Picnic;
@@ -129,6 +166,9 @@
 		D8423BCF19219E0200E64C48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8423BDA19219E0200E64C48 /* Main_iPhone.storyboard */,
+				D8423BDD19219E0200E64C48 /* Main_iPad.storyboard */,
+				D8423BE319219E0200E64C48 /* Images.xcassets */,
 				D8423BD019219E0200E64C48 /* Picnic-Info.plist */,
 				D8423BD119219E0200E64C48 /* InfoPlist.strings */,
 				D8423BD419219E0200E64C48 /* main.m */,
@@ -391,6 +431,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Yurm/Developer/Frameworks/FacebookSDK,
+					/Users/Yurm/Developer/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Picnic/Picnic-Prefix.pch";
 				INFOPLIST_FILE = "Picnic/Picnic-Info.plist";
@@ -404,6 +449,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Yurm/Developer/Frameworks/FacebookSDK,
+					/Users/Yurm/Developer/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Picnic/Picnic-Prefix.pch";
 				INFOPLIST_FILE = "Picnic/Picnic-Info.plist";

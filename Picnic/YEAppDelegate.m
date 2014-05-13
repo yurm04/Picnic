@@ -20,6 +20,15 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     [PFFacebookUtils initializeFacebook];
     
+    if (![PFUser currentUser]) { // User not currently logged in
+        // Create login view controller
+        PFLogInViewController *loginViewController = [[PFLogInViewController alloc]init];
+        loginViewController.delegate = self;
+        loginViewController.fields = PFLogInFieldsFacebook;
+        [self.window setRootViewController:loginViewController];
+        [self.window.rootViewController presentViewController:loginViewController animated:YES completion:NULL];
+    }
+    
     return YES;
 }
 

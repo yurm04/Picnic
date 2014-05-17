@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface YEViewController : UIViewController
+#import "YELoginViewController.h"
+#import "YEEvent.h"
+
+@interface YEViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+
+@property (strong, nonatomic) YELoginViewController *loginViewController;
+@property (strong, nonatomic) PFUser *user;
 
 @end

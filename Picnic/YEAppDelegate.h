@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface YEAppDelegate : UIResponder <UIApplicationDelegate, PFLogInViewControllerDelegate,PFSignUpViewControllerDelegate>
+#import "YEEvent.h"
+#import "YELoginViewController.h"
+
+
+@interface YEAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

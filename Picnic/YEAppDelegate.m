@@ -14,20 +14,15 @@
 {
     // Override point for customization after application launch.
     
+    // Event subclass
+    [YEEvent registerSubclass];
+    
     // Parse set up
-    [Parse setApplicationId:@"ywj5Z2v5dQ5aF1mtFUbkeBMQXLc1s3fXm8UV61W9"
-                  clientKey:@"zQv0oCGRdw4haLx3aTnjtVGTZlKLV6WaqPybtpbg"];
+    [Parse setApplicationId:@"FdprqJPj5QqhEwZIsJZD0j7WivcqSmM8EI5uxJug"
+                  clientKey:@"fPWgBwdhWtN1LlCyCbCxcYWhLz8qAIxlj4rryrue"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     [PFFacebookUtils initializeFacebook];
     
-    if (![PFUser currentUser]) { // User not currently logged in
-        // Create login view controller
-        PFLogInViewController *loginViewController = [[PFLogInViewController alloc]init];
-        loginViewController.delegate = self;
-        loginViewController.fields = PFLogInFieldsFacebook;
-        [self.window setRootViewController:loginViewController];
-        [self.window.rootViewController presentViewController:loginViewController animated:YES completion:NULL];
-    }
     
     return YES;
 }

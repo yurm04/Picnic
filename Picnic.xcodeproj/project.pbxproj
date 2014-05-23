@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D82576FE1927C49400DB4267 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82576FD1927C49400DB4267 /* FacebookSDK.framework */; };
-		D82577001927C49A00DB4267 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82576FF1927C49A00DB4267 /* Parse.framework */; };
+		89C0EA6592DF4017A7D02197 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DA7D57AF5845B5A1C822B1 /* libPods.a */; };
+		D822C259192D804800F5EB9C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D822C258192D804800F5EB9C /* FacebookSDK.framework */; };
+		D822C25B192D804E00F5EB9C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D822C25A192D804E00F5EB9C /* Parse.framework */; };
 		D838DC69192692DD00F0F946 /* YEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D838DC68192692DD00F0F946 /* YEEvent.m */; };
 		D838DC6C1926FF1700F0F946 /* YEHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D838DC6B1926FF1700F0F946 /* YEHandler.m */; };
 		D8423BC919219E0200E64C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423BC819219E0200E64C48 /* Foundation.framework */; };
@@ -19,7 +20,6 @@
 		D8423BD919219E0200E64C48 /* YEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8423BD819219E0200E64C48 /* YEAppDelegate.m */; };
 		D8423BDC19219E0200E64C48 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8423BDA19219E0200E64C48 /* Main_iPhone.storyboard */; };
 		D8423BDF19219E0200E64C48 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8423BDD19219E0200E64C48 /* Main_iPad.storyboard */; };
-		D8423BE219219E0200E64C48 /* YEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8423BE119219E0200E64C48 /* YEViewController.m */; };
 		D8423BE419219E0200E64C48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8423BE319219E0200E64C48 /* Images.xcassets */; };
 		D8423BEB19219E0200E64C48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423BEA19219E0200E64C48 /* XCTest.framework */; };
 		D8423BEC19219E0200E64C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8423BC819219E0200E64C48 /* Foundation.framework */; };
@@ -52,8 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D82576FD1927C49400DB4267 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../iOS Frameworks/FacebookSDK/FacebookSDK.framework"; sourceTree = "<group>"; };
-		D82576FF1927C49A00DB4267 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../iOS Frameworks/Parse.framework"; sourceTree = "<group>"; };
+		22DA7D57AF5845B5A1C822B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D822C258192D804800F5EB9C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Frameworks/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		D822C25A192D804E00F5EB9C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Frameworks/Parse.framework; sourceTree = "<group>"; };
 		D838DC67192692DD00F0F946 /* YEEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEEvent.h; sourceTree = "<group>"; };
 		D838DC68192692DD00F0F946 /* YEEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEEvent.m; sourceTree = "<group>"; };
 		D838DC6A1926FF1700F0F946 /* YEHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEHandler.h; sourceTree = "<group>"; };
@@ -70,8 +71,6 @@
 		D8423BD819219E0200E64C48 /* YEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YEAppDelegate.m; sourceTree = "<group>"; };
 		D8423BDB19219E0200E64C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D8423BDE19219E0200E64C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D8423BE019219E0200E64C48 /* YEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YEViewController.h; sourceTree = "<group>"; };
-		D8423BE119219E0200E64C48 /* YEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YEViewController.m; sourceTree = "<group>"; };
 		D8423BE319219E0200E64C48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8423BE919219E0200E64C48 /* PicnicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicnicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8423BEA19219E0200E64C48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -94,6 +93,7 @@
 		D868BA1419231A5C009B6558 /* YEHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEHomeViewController.m; sourceTree = "<group>"; };
 		D8B8735F1927C1EE001D2A68 /* YENewEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YENewEventViewController.h; sourceTree = "<group>"; };
 		D8B873601927C1EE001D2A68 /* YENewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YENewEventViewController.m; sourceTree = "<group>"; };
+		F4F4C5F62A2D44D3A57D305D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,17 +105,18 @@
 				D8423C151921BF9300E64C48 /* QuartzCore.framework in Frameworks */,
 				D8423C1319219EEE00E64C48 /* SystemConfiguration.framework in Frameworks */,
 				D8423C1119219EE700E64C48 /* StoreKit.framework in Frameworks */,
-				D82577001927C49A00DB4267 /* Parse.framework in Frameworks */,
 				D8423C0F19219EDE00E64C48 /* Security.framework in Frameworks */,
 				D8423C0D19219ED900E64C48 /* MobileCoreServices.framework in Frameworks */,
+				D822C25B192D804E00F5EB9C /* Parse.framework in Frameworks */,
 				D8423C0B19219ED300E64C48 /* libz.dylib in Frameworks */,
 				D8423C0919219EC600E64C48 /* CoreLocation.framework in Frameworks */,
 				D8423C0719219EC100E64C48 /* CFNetwork.framework in Frameworks */,
 				D8423C0519219EBC00E64C48 /* AudioToolbox.framework in Frameworks */,
 				D8423BCB19219E0200E64C48 /* CoreGraphics.framework in Frameworks */,
+				D822C259192D804800F5EB9C /* FacebookSDK.framework in Frameworks */,
 				D8423BCD19219E0200E64C48 /* UIKit.framework in Frameworks */,
 				D8423BC919219E0200E64C48 /* Foundation.framework in Frameworks */,
-				D82576FE1927C49400DB4267 /* FacebookSDK.framework in Frameworks */,
+				89C0EA6592DF4017A7D02197 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +133,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D833D07B192BD01E00415238 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D838DC6A1926FF1700F0F946 /* YEHandler.h */,
+				D838DC6B1926FF1700F0F946 /* YEHandler.m */,
+				D838DC67192692DD00F0F946 /* YEEvent.h */,
+				D838DC68192692DD00F0F946 /* YEEvent.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D833D07C192BD02900415238 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D868BA1319231A5C009B6558 /* YEHomeViewController.h */,
+				D868BA1419231A5C009B6558 /* YEHomeViewController.m */,
+				D8B8735F1927C1EE001D2A68 /* YENewEventViewController.h */,
+				D8B873601927C1EE001D2A68 /* YENewEventViewController.m */,
+				D868BA0D1922C54A009B6558 /* YELoginViewController.h */,
+				D868BA0E1922C54A009B6558 /* YELoginViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		D8423BBC19219E0200E64C48 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +164,7 @@
 				D8423BF019219E0200E64C48 /* PicnicTests */,
 				D8423BC719219E0200E64C48 /* Frameworks */,
 				D8423BC619219E0200E64C48 /* Products */,
+				F4F4C5F62A2D44D3A57D305D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,8 +180,8 @@
 		D8423BC719219E0200E64C48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D82576FF1927C49A00DB4267 /* Parse.framework */,
-				D82576FD1927C49400DB4267 /* FacebookSDK.framework */,
+				D822C25A192D804E00F5EB9C /* Parse.framework */,
+				D822C258192D804800F5EB9C /* FacebookSDK.framework */,
 				D8423C161921C00F00E64C48 /* Social.framework */,
 				D8423C141921BF9300E64C48 /* QuartzCore.framework */,
 				D8423C1219219EEE00E64C48 /* SystemConfiguration.framework */,
@@ -170,6 +196,7 @@
 				D8423BCA19219E0200E64C48 /* CoreGraphics.framework */,
 				D8423BCC19219E0200E64C48 /* UIKit.framework */,
 				D8423BEA19219E0200E64C48 /* XCTest.framework */,
+				22DA7D57AF5845B5A1C822B1 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,18 +206,8 @@
 			children = (
 				D8423BD719219E0200E64C48 /* YEAppDelegate.h */,
 				D8423BD819219E0200E64C48 /* YEAppDelegate.m */,
-				D838DC6A1926FF1700F0F946 /* YEHandler.h */,
-				D838DC6B1926FF1700F0F946 /* YEHandler.m */,
-				D838DC67192692DD00F0F946 /* YEEvent.h */,
-				D838DC68192692DD00F0F946 /* YEEvent.m */,
-				D8B8735F1927C1EE001D2A68 /* YENewEventViewController.h */,
-				D8B873601927C1EE001D2A68 /* YENewEventViewController.m */,
-				D8423BE019219E0200E64C48 /* YEViewController.h */,
-				D8423BE119219E0200E64C48 /* YEViewController.m */,
-				D868BA1319231A5C009B6558 /* YEHomeViewController.h */,
-				D868BA1419231A5C009B6558 /* YEHomeViewController.m */,
-				D868BA0D1922C54A009B6558 /* YELoginViewController.h */,
-				D868BA0E1922C54A009B6558 /* YELoginViewController.m */,
+				D833D07B192BD01E00415238 /* Classes */,
+				D833D07C192BD02900415238 /* View Controllers */,
 				D8423BCF19219E0200E64C48 /* Supporting Files */,
 			);
 			path = Picnic;
@@ -235,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8423BFA19219E0200E64C48 /* Build configuration list for PBXNativeTarget "Picnic" */;
 			buildPhases = (
+				18BB13572F8D46A299D4FA4B /* Check Pods Manifest.lock */,
 				D8423BC119219E0200E64C48 /* Sources */,
 				D8423BC219219E0200E64C48 /* Frameworks */,
 				D8423BC319219E0200E64C48 /* Resources */,
+				664C8BB65B964B46A401C311 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -322,6 +341,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18BB13572F8D46A299D4FA4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		664C8BB65B964B46A401C311 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8423BC119219E0200E64C48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -332,7 +384,6 @@
 				D838DC6C1926FF1700F0F946 /* YEHandler.m in Sources */,
 				D838DC69192692DD00F0F946 /* YEEvent.m in Sources */,
 				D8423BD919219E0200E64C48 /* YEAppDelegate.m in Sources */,
-				D8423BE219219E0200E64C48 /* YEViewController.m in Sources */,
 				D8B873611927C1EE001D2A68 /* YENewEventViewController.m in Sources */,
 				D8423BD519219E0200E64C48 /* main.m in Sources */,
 			);
@@ -466,19 +517,14 @@
 		};
 		D8423BFB19219E0200E64C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F4C5F62A2D44D3A57D305D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Yurm/Developer/iOS,
-					Frameworks/FacebookSDK,
-					/Users/Yurm/Developer/iOS,
-					Frameworks,
-					/Users/Yurm/Developer/iOS,
-					Frameworks/FacebookSDK,
-					/Users/Yurm/Developer/iOS,
-					Frameworks,
+					/Users/Yurm/Developer/Frameworks/FacebookSDK,
+					/Users/Yurm/Developer/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Picnic/Picnic-Prefix.pch";
@@ -490,19 +536,14 @@
 		};
 		D8423BFC19219E0200E64C48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F4C5F62A2D44D3A57D305D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Yurm/Developer/iOS,
-					Frameworks/FacebookSDK,
-					/Users/Yurm/Developer/iOS,
-					Frameworks,
-					/Users/Yurm/Developer/iOS,
-					Frameworks/FacebookSDK,
-					/Users/Yurm/Developer/iOS,
-					Frameworks,
+					/Users/Yurm/Developer/Frameworks/FacebookSDK,
+					/Users/Yurm/Developer/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Picnic/Picnic-Prefix.pch";

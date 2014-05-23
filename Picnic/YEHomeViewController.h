@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface YEHomeViewController : UIViewController
+#import "YELoginViewController.h"
+
+
+@interface YEHomeViewController : UIViewController <PFLogInViewControllerDelegate>
 
 @end

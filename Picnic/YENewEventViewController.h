@@ -20,5 +20,9 @@
 
 - (IBAction)saveButtonHandler:(id)sender;
 
+- (void) validateEventForm;
+
+- (void) handlePush;
+
 //- (void) handleEvent;
 @end

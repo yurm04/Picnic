@@ -23,25 +23,7 @@
     return @"Event";
 }
 
-//-(NSArray *)guestList
-//{
-//    return @[@"Me",@"Kara",@"Drue",@"Jason",@"Rachel"];
-//}
-//
-//-(NSArray *)eventList
-//{
-//    return @[@"Beer",@"Cheese",@"Wine",@"Chips",@"Tequila"];
-//}
-//
-//-(NSDate *)startDate
-//{
-//    return [NSDate date];
-//}
-//
-//-(NSDate *)endDate
-//{
-//    return [NSDate date];
-//}
+
 
 
 

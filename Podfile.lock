@@ -1,0 +1,19 @@
+PODS:
+  - KMAccordionTableViewController (0.1.1)
+  - KNSemiModalViewController (0.3)
+  - UIFloatLabelTextField (1.0.7)
+  - UIFloatLabelTextView (1.0.1)
+
+DEPENDENCIES:
+  - KMAccordionTableViewController (~> 0.1)
+  - KNSemiModalViewController (~> 0.3)
+  - UIFloatLabelTextField (~> 1.0)
+  - UIFloatLabelTextView (~> 1.0)
+
+SPEC CHECKSUMS:
+  KMAccordionTableViewController: e97b1324973e6d1264921d8703f5771d100104df
+  KNSemiModalViewController: 976b739f57aa595359a2cfdf6aadde991ada8f99
+  UIFloatLabelTextField: 7d012b669a21bccaa9557670ea3a4b90a0901389
+  UIFloatLabelTextView: 394e81c000a64b9618ec9792bc1bf3ddce400a95
+
+COCOAPODS: 0.32.1
